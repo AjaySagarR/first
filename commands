@@ -1,0 +1,1 @@
+find -type f -name '*.csv' -exec cp -t data/all "{}" +    // Copy all files from different directory
