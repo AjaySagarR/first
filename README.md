@@ -94,10 +94,13 @@ Python GUI application for generating Infile and Filling files.
    2) pyqt5 Library
 
 
-### check the Python version on Windows, Linux, or macOS systems :-
+### Check the Python version on Windows, Linux, or macOS systems :-
 To check the version installed, open a terminal window and entering the following:
    
      python --version
 ![image](https://user-images.githubusercontent.com/20612971/136605964-7aa1de15-1474-4e2f-963b-c3a28c3c6cb1.png)
 
 If installed python version is 3.5 or above then you can continue to install pyqt5 library using pip 
+
+### Installing pyqt5 using pip
+pip3 install pyqt5  
