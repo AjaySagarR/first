@@ -95,7 +95,8 @@ To check the version installed, open a terminal window and entering the followin
      python --version
 ![image](https://user-images.githubusercontent.com/20612971/136605964-7aa1de15-1474-4e2f-963b-c3a28c3c6cb1.png)
 
-If installed python version is 3.5 or above then you can continue to install pyqt5 library using pip else to install python follow next step -
+If installed python version is 3.5 or above then you can continue to install pyqt5 library using pip.
+To install python or upgrade older python version follow next step -
 
 ### Install Python3
 
@@ -128,8 +129,8 @@ To Install PIP3(For Python 3+):
 
      sudo apt install python3-pip 
 
-
-
+### Upgrading Pip version in linux
+     pip install --upgrade pip
 
 
 ### Installing pyqt5 using pip
