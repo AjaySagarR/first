@@ -103,4 +103,7 @@ To check the version installed, open a terminal window and entering the followin
 If installed python version is 3.5 or above then you can continue to install pyqt5 library using pip 
 
 ### Installing pyqt5 using pip
-pip3 install pyqt5  
+     pip install pyqt5 
+     
+To run the code use 
+     python ./InfileGenerator.py
