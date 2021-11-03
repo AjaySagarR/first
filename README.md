@@ -1,10 +1,10 @@
 # MicroSim LAB
 
 
-## GRAND-POTENTIAL MODEL 
+## Grand-Potential Model 
 
 
-## CAHN HILLIARD MODEL
+## Cahn–Hilliard Model
  * C code for precipitate evolution. 
  * It solves Allen-Cahn and Cahn–Hilliard equations using FFTW3.  
  * Compile the code using "make". Compilation creates "FFT_2D_ppt.out" file. 
@@ -18,7 +18,7 @@
  * Department of Metallurgical Engineering and Materials Science, 
  * Indian Institute of Technology Bombay, Mumbai 400076 INDIA
 
-## KKS GPU CUDA MODEL
+## KKS GPU CUDA Model
 This code solves the problem of precipitate growth using a multiphase field solver on the GPU.
 The code is tested on Tesla P100 and Tesla V100.
 For Tesla K80, one needs to comment "CudaMemPrefetchAsync" in solverloop/evolve.h
@@ -43,7 +43,7 @@ The following contributers are acknowledged
 1. Tushar Jogi
 2. Hemanth Kumar Sandireddy
 
-## KKS GPU OPENCL MODEL
+## KKS GPU OPENCL Model
 
 * OpenCL code for solidification microstructure evolution 
 
@@ -84,3 +84,20 @@ It contains the OpenFOAM case files required to run the free growth problem.
 ### directionalSolidification
 
 It contains the OpenFOAM case files required to run the directional solidification problem.
+
+
+## Infile Generator
+Python GUI application for generating Infile and Filling files.
+
+### System Requirements :-
+   1) Python v3.5 and later 
+   2) pyqt5 Library
+
+
+### check the Python version on Windows, Linux, or macOS systems :-
+To check the version installed, open a terminal window and entering the following:
+   
+     python --version
+![image](https://user-images.githubusercontent.com/20612971/136605964-7aa1de15-1474-4e2f-963b-c3a28c3c6cb1.png)
+
+If installed python version is 3.5 or above then you can continue to install pyqt5 library using pip 
