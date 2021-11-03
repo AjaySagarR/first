@@ -104,19 +104,30 @@ Download setup from https://www.python.org/downloads/ and follow the instruction
 #### linux/Ubuntu
 If you are using Ubuntu 16.10 or newer, then you can easily install Python 3 with the following commands:
 
-     $ sudo apt-get update
-     $ sudo apt-get install python3
+     sudo apt-get update
+     sudo apt-get install python3
 If you’re using another version of Ubuntu (e.g. the latest LTS release) or you want to use a more current Python, we recommend using the deadsnakes PPA to install Python 3:
 
-     $ sudo apt-get install software-properties-common
-     $ sudo add-apt-repository ppa:deadsnakes/ppa
-     $ sudo apt-get update
-     $ sudo apt-get install python3
+    sudo apt-get install software-properties-common
+    sudo add-apt-repository ppa:deadsnakes/ppa
+    sudo apt-get update
+    sudo apt-get install python3
 If you are using other Linux distribution, chances are you already have Python 3 pre-installed as well. If not, use your distribution’s package manager. For example on Fedora, you would use dnf:
 
-     $ sudo dnf install python3
+    sudo dnf install python3
    
 ### Download and Install pip:
+#### Windows
+Download the https://bootstrap.pypa.io/get-pip.py file and store it in the same directory as python is installed.
+Run the command given below:
+     python get-pip.py
+and wait through the installation process.
+
+#### Linux/Ubuntu
+To Install PIP3(For Python 3+):
+
+     sudo apt install python3-pip 
+
 
 
 
