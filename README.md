@@ -138,3 +138,5 @@ To Install PIP3(For Python 3+):
      
 To run the code use 
      python ./InfileGenerator.py
+     
+Developed by- Ajay Sagar
